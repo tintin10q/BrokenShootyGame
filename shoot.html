@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="english" name="language">
+	<meta content="Quinten Cabo" name="author">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://i.imgur.com/NTN0u7W.png" rel="shortcut icon" type="image/x-icon">
+	<title>Shooter online</title>
+</head>
+<body onload="startGame()">
+	<canvas height="625" id="myCanvas" width="450" onclick="shoot()"></canvas><img height="0" id="scoreboard" src="/static/bingo_lijst.png" width="10">
+	<button onclick="pause()" >Click to pause</button>
+    <div class="feet">
+		Made by Quinten Cabo (tintin10q@hotmail.com)<br>
+		© 2018. All rights reserved.
+	</div>
+	<img id="turret"  hidden src="shoot.png" alt="Could not image">
+	<img id="bullet"  hidden src="bullet.png" alt="Could not image">
+    <script src="script.js"></script>
+</body>
+</html>
